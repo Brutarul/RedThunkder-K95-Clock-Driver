@@ -6,7 +6,7 @@ requests synchronization on USB connection. After suspend, a missed calendar
 timer runs on resume. An unplugged keyboard is a normal, quiet no-op.
 
 Verified on Fedora 44 with the wired **SINO WEALTH K95, USB 258a:019d** on
-2026-10-30. The owner confirmed the displayed clock updated correctly. The
+2026-10-30. I confirmed the displayed clock updated correctly. The
 helper matches its exact vendor-interface descriptor, not a fixed hidraw number.
 
 ## Connection
