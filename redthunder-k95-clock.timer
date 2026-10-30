@@ -1,0 +1,12 @@
+[Unit]
+Description=Keep the RedThunder K95 clock synchronized
+
+[Timer]
+OnBootSec=20s
+OnCalendar=*-*-* *:*:00
+AccuracySec=1s
+Persistent=yes
+Unit=redthunder-k95-clock.service
+
+[Install]
+WantedBy=timers.target

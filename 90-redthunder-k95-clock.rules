@@ -1,0 +1,2 @@
+# The helper validates the product name, interface and full report descriptor.
+ACTION=="add", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="258a", ATTRS{idProduct}=="019d", ATTRS{product}=="K95", TAG+="systemd", ENV{SYSTEMD_WANTS}+="redthunder-k95-clock.service"
